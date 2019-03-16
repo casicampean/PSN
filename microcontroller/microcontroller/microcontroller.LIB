@@ -1,0 +1,186 @@
+timestamp=1495093379891
+
+[alu]
+A/alu1=A/ALU1 21|./src/ALU.vhd|15|1*4615260
+B/alu1=3*2405416
+H/alu1=0*5601479
+R=./src/ALU.vhd|6
+V=0*131036
+
+[bist_d]
+B/ff_d=3*132306
+H/ff_d=0*369309
+R=./src/BIST_D.vhd|6
+V=0*370269
+
+[debounce]
+A/debouncer=21|./src/DEBOUNCE.vhd|11|1*4544210
+B/debouncer=3*2375916
+H/debouncer=0*5542222
+R=./src/DEBOUNCE.vhd|5
+V=0*19515
+
+[dec_display]
+A/dec=A/DEC 21|./src/CIFRE.vhd|12|1*4569899
+B/dec=3*2399191
+H/dec=0*5558443
+R=./src/CIFRE.vhd|7
+V=0*871277
+
+[decodificator]
+A/dec=A/DEC 21|./src/DECOD.vhd|16|1*4713772
+B/dec=3*2439486
+H/dec=0*5715432
+R=./src/DECOD.vhd|5
+V=0*4271362
+
+[display]
+A/display_7=A/DISPLAY_7 21|./src/DISPLAY.vhd|13|1*4557636
+B/display_7=3*2388416
+H/display_7=0*5549195
+R=./src/DISPLAY.vhd|6
+V=0*874353
+
+[div]
+A/div_frecventa=21|./src/DIV_F.vhd|10|1*4537886
+B/div_frecventa=3*2357121
+H/div_frecventa=0*5538042
+R=./src/DIV_F.vhd|5
+V=0*640743
+
+[final]
+B/micro_final=3*214898
+H/micro_final=0*1153769
+R=./src/PROGRAM FINAL.vhd|6
+V=0*1106075
+
+[hex_to_7seg]
+A/decod=A/DECOD 21|./src/7_SEGM.vhd|9|1*4555993
+B/decod=3*2386011
+H/decod=0*5548542
+R=./src/7_SEGM.vhd|4
+V=0*179164
+
+[inv_div]
+A/inv_div_frecventa=21|./src/INV_DIV.vhd|10|1*4573197
+B/inv_div_frecventa=3*2401198
+H/inv_div_frecventa=0*5563599
+R=./src/INV_DIV.vhd|5
+V=0*1348670
+
+[memorie]
+A/mem=A/MEM 21|./src/ROM.vhd|10|1*4805892
+B/mem=3*2456415
+H/mem=0*5805966
+R=./src/ROM.vhd|5
+V=0*5469336
+
+[mux]
+A/mux2_1=A/MUX2_1 21|./src/MUX2_1.vhd|11|1*4562845
+B/mux2_1=3*2391833
+H/mux2_1=0*5555298
+R=./src/MUX2_1.vhd|5
+V=0*37186
+
+[numarator]
+A/count=A/Count 21|./src/PROGRAM_COUNTER.vhd|11|1*4602281
+B/count=3*2403033
+H/count=0*5590422
+R=./src/PROGRAM_COUNTER.vhd|5
+V=0*4238916
+
+[pfc]
+A/p=A/P +21|./src/PROGRAM_FLOW.vhd|11|1*584109
+A/program_flow=A/PROGRAM_FLOW 21|./src/PROGRAM_FLOW.vhd|11|1*4689343
+B/program_flow=3*2433957
+H/program_flow=0*5698035
+R=./src/PROGRAM_FLOW.vhd|4
+V=0*3300236
+
+[proc]
+A/arh_proc=21|./src/MICROCONTROL.vhd|13|1*4721834
+H/arh_proc=0*5718766
+R=./src/MICROCONTROL.vhd|6
+V=0*2365216
+
+[register_file]
+A/reg=A/REG 21|./src/REG_FILE.vhd|16|1*4552280
+B/reg=3*2384356
+H/reg=0*5545300
+R=./src/REG_FILE.vhd|5
+V=0*505695
+
+[stiva]
+A/stiva_arh=A/STIVA_ARH 21|./src/STACK.vhd|12|1*4792531
+B/stiva_arh=3*2453874
+H/stiva_arh=0*5793686
+R=./src/STACK.vhd|6
+V=0*5639124
+
+[~A]
+./src/7_SEGM.vhd~DECODHEX_TO_7SEG=0*5548627*5549122
+./src/7_SEGM.vhd~HEX_TO_7SEG=0*177422*177663
+./src/ALU.vhd~ALU=0*129527*129951
+./src/ALU.vhd~ALU1ALU=0*5601562*5604372
+./src/BIST_D.vhd~bist_d=0*368931*369246
+./src/BIST_D.vhd~ff_dbist_d=0*369392*369569
+./src/CIFRE.vhd~DECDEC_DISPLAY=0*5562654*5563529
+./src/CIFRE.vhd~DEC_DISPLAY=0*864964*865300
+./src/DEBOUNCE.vhd~debounce=0*18458*18766
+./src/DEBOUNCE.vhd~debouncerdebounce=0*5543029*5543500
+./src/DECOD.vhd~DECDECODIFICATOR=0*5715513*5717106
+./src/DECOD.vhd~DECODIFICATOR=0*4267785*4268304
+./src/DISPLAY.vhd~DISPLAY=0*873136*873498
+./src/DISPLAY.vhd~DISPLAY_7DISPLAY=0*5553914*5555224
+./src/DIV_F.vhd~div=0*640096*640317
+./src/DIV_F.vhd~div_frecventadiv=0*5538285*5538623
+./src/INV_DIV.vhd~INV_DIV=0*1347289*1347524
+./src/INV_DIV.vhd~inv_div_frecventaINV_DIV=0*5563850*5564210
+./src/MICROCONTROL.vhd~arh_procproc=0*5742700*5746165
+./src/MICROCONTROL.vhd~proc=0*2337377*2337727
+./src/MUX2_1.vhd~MUX=0*36193*36474
+./src/MUX2_1.vhd~MUX2_1MUX=0*5555385*5555603
+./src/PROGRAM FINAL.vhd~FINAL=0*1096980*1097376
+./src/PROGRAM FINAL.vhd~MICRO_FINALFINAL=0*1160324*1161347
+./src/PROGRAM_COUNTER.vhd~CountNumarator=0*5590507*5590947
+./src/PROGRAM_COUNTER.vhd~Numarator=0*4237183*4237515
+./src/PROGRAM_FLOW.vhd~PFC=0*3298954*3299282
+./src/PROGRAM_FLOW.vhd~PPFC=0*852772*853484
+./src/PROGRAM_FLOW.vhd~PROGRAM_FLOWPFC=0*5698134*5699024
+./src/Program_Flow_Control.vhd~PFC=0*843807*844131
+./src/Program_Flow_Control.vhd~PPFC=0*846708*847428
+./src/REG_FILE.vhd~REGregister_file=0*5547616*5548467
+./src/REG_FILE.vhd~register_file=0*503984*504452
+./src/ROM.vhd~MEMMEMORIE=0*5809783*5811128
+./src/ROM.vhd~MEMORIE=0*5468411*5468680
+./src/STACK.vhd~STIVA=0*5637987*5638324
+./src/STACK.vhd~STIVA_ARHSTIVA=0*5794687*5795332
+./src/div_frecventa.vhd~div=0*115488*115741
+./src/div_frecventa.vhd~div_frecventadiv=0*116814*117198
+ModifyID=6817
+Version=73
+
+[~MFT]
+0=7061|0microcontroller.mgf|5811128|5697020
+1=2149|1microcontroller.mgf|4805892|4751055
+3=1913|3microcontroller.mgf|2456415|2409736
+
+[~U]
+alu=11|0*130008|0*130287
+bist_d=11|0*369636|0*369808
+debounce=11|0*18833|0*19042
+dec_display=DEC_DISPLAY 11|0*870523|0*870761
+decodificator=11|0*4269970|0*4270365
+display=11|0*873563|0*873772
+div=11|0*640376|0*640506
+final=11|0*1105230|0*1105464
+hex_to_7seg=HEX_TO_7SEG 11|0*178594|0*178763
+inv_div=INV_DIV 11|0*1348282|0*1348425
+memorie=11|0*5468741|0*5468907
+mux=11|0*36534|0*36730
+numarator=11|0*4238174|0*4238413
+pfc=11|0*3299348|0*3299673
+proc=11|0*2364525|0*2364725
+register_file=11|0*504524|0*504845
+stiva=11|0*5638385|0*5638611
+

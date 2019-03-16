@@ -1,0 +1,15 @@
+.\src\MICROCONTROL.vhd
+.\src\ROM.vhd
+.\src\DIV_F.vhd
+.\src\PROGRAM_COUNTER.vhd
+.\src\ALU.vhd
+.\src\DEBOUNCE.vhd
+.\src\DECOD.vhd
+.\src\REG_FILE.vhd
+.\src\7_SEGM.vhd
+.\src\DISPLAY.vhd
+.\src\MUX2_1.vhd
+.\src\PROGRAM_FLOW.vhd
+.\src\STACK.vhd
+.\src\CIFRE.vhd
+.\src\INV_DIV.vhd

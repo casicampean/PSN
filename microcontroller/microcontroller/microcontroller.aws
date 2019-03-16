@@ -1,0 +1,14 @@
+[Version]
+Version=6.3
+[Designs]
+microcontroller=microcontroller.adf
+[Settings]
+Active=microcontroller
+[Expand]
+microcontroller=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

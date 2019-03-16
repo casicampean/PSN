@@ -1,0 +1,15 @@
+i<>.\src\ALU.vhd
+i<>.\src\MUX2_1.vhd
+i<>.\src\PROGRAM_COUNTER.vhd
+i<>.\src\DEBOUNCE.vhd
+i<>.\src\div_frecventa.vhd
+i<>.\src\DECOD.vhd
+i<>.\src\ROM.vhd
+i<>.\src\REG_FILE.vhd
+i<>.\src\7_SEGM.vhd
+i<>.\src\DISPLAY.vhd
+i<>.\src\MICROCONTROL.vhd
+i<>.\src\Program_Flow_Control.vhd
+i<>.\src\STACK.vhd
+i<>.\src\CIFRE.vhd
+i<>.\src\INV_DIV.vhd

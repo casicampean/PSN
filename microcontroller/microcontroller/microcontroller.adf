@@ -1,0 +1,68 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=microcontroller
+
+[Library]
+microcontroller=.\microcontroller.lib
+
+[$LibMap$]
+microcontroller=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=proc|arh_proc|0  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/MICROCONTROL.vhd=-1
+/ROM.vhd=-1
+/DIV_F.vhd=-1
+/PROGRAM_COUNTER.vhd=-1
+/ALU.vhd=-1
+/DEBOUNCE.vhd=-1
+/DECOD.vhd=-1
+/REG_FILE.vhd=-1
+/7_SEGM.vhd=-1
+/DISPLAY.vhd=-1
+/MUX2_1.vhd=-1
+/PROGRAM_FLOW.vhd=-1
+/STACK.vhd=-1
+/CIFRE.vhd=-1
+/INV_DIV.vhd=-1
+
+[Files.Data]
+.\src\MICROCONTROL.vhd=VHDL Source Code
+.\src\ROM.vhd=VHDL Source Code
+.\src\DIV_F.vhd=VHDL Source Code
+.\src\PROGRAM_COUNTER.vhd=VHDL Source Code
+.\src\ALU.vhd=VHDL Source Code
+.\src\DEBOUNCE.vhd=VHDL Source Code
+.\src\DECOD.vhd=VHDL Source Code
+.\src\REG_FILE.vhd=VHDL Source Code
+.\src\7_SEGM.vhd=VHDL Source Code
+.\src\DISPLAY.vhd=VHDL Source Code
+.\src\MUX2_1.vhd=VHDL Source Code
+.\src\PROGRAM_FLOW.vhd=VHDL Source Code
+.\src\STACK.vhd=VHDL Source Code
+.\src\CIFRE.vhd=VHDL Source Code
+.\src\INV_DIV.vhd=VHDL Source Code
+
